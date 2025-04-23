@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+nav {
+    background-color: pink;
+    padding: 8px 16px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+/* Section Hero Section*/
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./image/beautiful-sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section_wrapper {
+    height: 100%;
+    width: 100%;
+    color: whitesmoke;
+    background-color: #e91e6312;
+    padding: 40px;
+}
+
+.hero-section_title{
+    font-size: 50px;
+    font-weight: 700px;
+    color: whitesmoke;
+    font-family:"Edu AU VIC WA NT Arrows", cursive; 
+}
+
+.hero-section_wrapper h1 {
+    margin-bottom: 24px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.her0-section_wrapper p {
+    color: wheat;
+    font-family:"Underdog", system-ui;
+}
+
+.hero_section_link{
+    margin-top: 40 px;
+    color: black;
+    background-color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.hero-section_link:hover{
+    color: white;
+    text-decoration: dashed underline;
+    background-color: rgba(19,82,165,0.314);
+}
+
+.quote{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+    color:hotpink;
+    font-family:"IBM Plex Serif",serif;
+    gap: 20px;
+    text-align: center;
+}
+
+.assignment-list{
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 120px 80px;
+}
+
+.assignment-list-card{
+    border:1px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+    height: 200px;
+    background-color: burlywood;
+}
+
+footer {
+    background-color:black;
+    padding-block:40px;
+    color:#fff;
+}
+
+/*Mobile responsive code */
+
+
+@media (max-width: 767px) {
+    .assignment-list-card {
+        background-color:pink;
+    }
+
+footer {
+    background-color:azure;
+}
+}
+
+.top {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+
+.top svg {
+    fill: white;
+}
+
+/* .position-relative {
+    padding: 40px 300px;
+    background-color: white;
+}
+
+.position-absolute {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+} */
+
+.w-100 {
+    width: 100%;
+}
+
+.position-relative{
+    position: relative;
+    /* padding: 40px 100px; */
+  }
+  
+  .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+

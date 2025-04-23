@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+nav {
+    background-color: pink;
+    padding: 8px 16px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+ul a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+/* Section Hero Section*/
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./image/beautiful-sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
