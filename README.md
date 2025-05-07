@@ -9,5 +9,3 @@ This project is a simple, responsive web page built as part of my Web Developmen
 ## 🚀 How to Run the Project
 1. Download or clone the project folder.
 2. Open the `index.html` file in any web browser.
-
-## 📁 File Structure
